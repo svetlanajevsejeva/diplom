@@ -1,0 +1,1811 @@
+#header #header-container, .container {
+    margin: 0 auto;
+    max-width: 1200px
+}
+
+#header #header-container, #services #services-container #services-cards {
+    justify-content: space-between;
+    display: flex
+}
+
+#footer #footer-container #social-media a, #footer #footer-container a, #header #header-container #menu a {
+    text-decoration: none
+}
+
+@font-face {
+    src: url(../fonts/Marguaritas.ttf);
+    font-family: Marguaritas
+}
+
+@font-face {
+    src: url(../fonts/Nunito-Bold.ttf);
+    font-family: NunitoBold
+}
+
+@font-face {
+    src: url(../fonts/Nunito-ExtraBold.ttf);
+    font-family: NunitoExtraBold
+}
+
+@font-face {
+    src: url(../fonts/Nunito-Regular.ttf);
+    font-family: NunitoRegular
+}
+
+@font-face {
+    src: url(../fonts/Nunito-SemiBold.ttf);
+    font-family: NunitoSemiBold
+}
+
+body {
+    margin: 0
+}
+
+#header {
+    background: #e6e3e4;
+    position: relative
+}
+
+#header #blur {
+    filter: blur(3px);
+    position: absolute;
+    height: 10px;
+    width: 100%;
+    bottom: -4px;
+    background: #e6e3e4
+}
+
+#header #header-container {
+    align-items: center;
+    height: 90px
+}
+
+#header #header-container #burger {
+    display: none;
+    fill: #2c0526;
+    width: 25px
+}
+
+#header #header-container #menu img {
+    display: none
+}
+
+#header #header-container #menu .menu-item {
+    font-size: 13px;
+    font-family: NunitoSemiBold, sans-serif;
+    color: #2c0526;
+    margin-right: 50px
+}
+
+#header #header-container #menu .menu-item:hover {
+    color: #721163;
+    border-bottom: 1px solid #721163
+}
+
+#header #header-container #menu .menu-item:focus {
+    color: #721163;
+    font-family: NunitoExtraBold, sans-serif;
+    border-bottom: 1px solid #721163
+}
+
+#header #header-container .logo {
+    margin-left: -185px
+}
+
+.logo {
+    text-align: center
+}
+
+.logo .logo-text {
+    font-size: 10px;
+    font-family: NunitoSemiBold, sans-serif;
+    color: #430639;
+    text-transform: uppercase
+}
+
+.logo-title {
+    font-size: 55px;
+    font-family: Marguaritas, sans-serif;
+    color: #430639
+}
+
+.phone {
+    font-size: 14px;
+    font-family: NunitoSemiBold, sans-serif;
+    color: #2c0526
+}
+
+#main #main-container #main-title, h2.block-title {
+    font-family: NunitoBold, sans-serif
+}
+
+#main {
+    background: url(../images/main-bg.png) center 860px;
+    padding-top: 155px
+}
+
+#main #main-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-bottom: 195px
+}
+
+#main #main-container #main-title {
+    font-size: 36px;
+    color: #430639;
+    width: 492px;
+    margin-bottom: 40px;
+    line-height: 46px
+}
+
+#main #main-container #main-title span {
+    font-size: 70px
+}
+
+#main #main-container #main-text {
+    font-size: 20px;
+    font-family: NunitoRegular, sans-serif;
+    color: #2c0526;
+    width: 462px;
+    margin-bottom: 40px
+}
+
+.btn {
+    background-color: #721163;
+    width: 259px;
+    height: 50px;
+    border-radius: 25px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: NunitoSemiBold, sans-serif;
+    color: #fff
+}
+
+.btn:hover {
+    box-shadow: 0 0 20px #7211637a
+}
+
+#advantages {
+    background: url(../images/decor-rose.png) bottom no-repeat
+}
+
+#advantages #advantages-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 150px;
+    padding-bottom: 80px
+}
+
+#advantages #advantages-container .block-title {
+    padding-bottom: 60px
+}
+
+#advantages #advantages-container .advantages {
+    display: flex
+}
+
+#advantages #advantages-container .advantages .advantage {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-bottom: 45px
+}
+
+#advantages #advantages-container .advantages .advantage .ellipse {
+    background: url(../images/ellipse.png);
+    width: 114px;
+    height: 87px
+}
+
+#advantages #advantages-container .advantages .advantage .ellipse .icon {
+    position: relative;
+    top: calc(50% - 27px);
+    text-align: center
+}
+
+#advantages #advantages-container .advantages .advantage .advantage-text {
+    font-size: 14px;
+    font-family: NunitoRegular, sans-serif;
+    color: #2c0526;
+    line-height: 1.2;
+    width: 287px;
+    margin-left: 30px
+}
+
+#advantages #advantages-container .advantages .advantage:nth-child(2) {
+    margin-left: 150px
+}
+
+#advantages #advantages-container .advantages:nth-child(2) .advantage:first-child {
+    margin-left: 50px;
+    margin-right: 100px
+}
+
+#advantages #advantages-container .advantages:nth-child(2) .advantage:nth-child(2) .advantage-text {
+    width: 211px
+}
+
+h2.block-title {
+    margin: 0;
+    font-size: 30px;
+    color: #430639
+}
+
+#services {
+    background: url(../images/decor-rose-service.png) no-repeat;
+    position: relative
+}
+
+#services #lavender {
+    position: absolute;
+    bottom: 0;
+    right: 40px;
+    z-index: 1
+}
+
+#services #services-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 110px;
+    padding-bottom: 115px;
+    position: relative;
+    z-index: 10
+}
+
+#services #services-container .block-title {
+    margin-bottom: 30px
+}
+
+#services #services-container #services-text {
+    font-size: 16px;
+    font-family: NunitoRegular, sans-serif;
+    color: #2c0526;
+    width: 563px;
+    margin-bottom: 70px
+}
+
+#services #services-container #services-cards .service {
+    border-radius: 8px;
+    background-color: #faf7fa;
+    box-shadow: 0 2px 16.56px 1.44px rgba(44, 5, 38, .1);
+    width: 282px
+}
+
+#services #services-container #services-cards .service .service-image {
+    width: 282px;
+    height: 281px
+}
+
+#services #services-container #services-cards .service .service-image img {
+    max-width: 100%;
+    max-height: 100%
+}
+
+#services #services-container #services-cards .service .service-text {
+    padding: 30px 15px;
+    box-sizing: border-box
+}
+
+#services #services-container #services-cards .service .service-text .service-title {
+    font-size: 16px;
+    font-family: NunitoBold, sans-serif;
+    color: #2c0526;
+    margin-bottom: 20px;
+    line-height: 8px
+}
+
+#services #services-container #services-cards .service .service-text .service-description {
+    font-size: 14px;
+    font-family: NunitoRegular, sans-serif;
+    color: #2c0526;
+    line-height: 1.357;
+    width: 247px;
+    height: 92px
+}
+
+#services #services-container #services-cards .service .service-text .service-time {
+    font-size: 12px;
+    font-family: NunitoSemiBold, sans-serif;
+    color: #721163;
+    margin-top: 20px
+}
+
+#services #services-container #services-cards .service .service-text .service-price-btn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px
+}
+
+#services #services-container #services-cards .service .service-text .service-price-btn .service-price {
+    font-size: 16px;
+    font-family: NunitoBold, sans-serif;
+    color: #2c0526
+}
+
+#services #services-container #services-cards .service .service-text .service-price-btn .service-btn button {
+    width: 130px;
+    height: 40px
+}
+
+#offer {
+    background: url(../images/offer-image.png) #f5f4f3;
+    position: relative
+}
+
+#offer #circle1 {
+    position: absolute;
+    left: 180px;
+    z-index: 1
+}
+
+#offer #circle2 {
+    position: absolute;
+    width: 100%
+}
+
+#offer #offer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 170px 0 210px;
+    position: relative;
+    z-index: 10
+}
+
+#offer #offer-container #offer-text {
+    max-width: 385px
+}
+
+#offer #offer-container #offer-text .block-title {
+    margin-bottom: 30px;
+    line-height: 20px
+}
+
+#offer #offer-container #offer-text #offer-description {
+    font-size: 18px;
+    font-family: NunitoSemiBold, sans-serif;
+    color: #2c0526;
+    width: 354px;
+    margin-bottom: 30px
+}
+
+#masters {
+    background: url(../images/decor-rose-master.png) right no-repeat
+}
+
+#masters #masters-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 140px 0 160px
+}
+
+#masters #masters-container .block-title {
+    margin-bottom: 30px
+}
+
+#masters #masters-container #masters-text {
+    font-size: 16px;
+    font-family: NunitoRegular, sans-serif;
+    color: #2c0526;
+    width: 519px;
+    margin-bottom: 45px
+}
+
+#masters #masters-container #masters-slider {
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+}
+
+#masters #masters-container #masters-slider .slick-dots li button:before {
+    content: '1';
+    font-size: 18px;
+    font-family: NunitoRegular, sans-serif;
+    color: rgba(114, 17, 99, .702);
+    top: 35px
+}
+
+#masters #masters-container #masters-slider .slick-dots li.slick-active button:before {
+    font-family: NunitoBold, sans-serif;
+    color: #721163
+}
+
+#masters #masters-container #masters-slider #slick-slide-control01::before {
+    content: '2'
+}
+
+#masters #masters-container #masters-slider .slick-next, #masters #masters-container #masters-slider .slick-prev {
+    top: 116%
+}
+
+#masters #masters-container #masters-slider .slick-prev {
+    left: calc(50% - 48px)
+}
+
+#masters #masters-container #masters-slider .slick-next {
+    right: calc(50% - 48px)
+}
+
+#masters #masters-container #masters-slider .master {
+    position: relative;
+    outline: 0
+}
+
+#masters #masters-container #masters-slider .master .master-image {
+    width: 384px;
+    height: 311px
+}
+
+#masters #masters-container #masters-slider .master .master-image img {
+    max-width: 100%;
+    max-height: 100%
+}
+
+#masters #masters-container #masters-slider .master .master-info {
+    background-color: #ffffff;
+    width: 251px;
+    height: 70px;
+    padding: 14px 20px;
+    box-sizing: border-box;
+    position: absolute;
+    bottom: 15px
+}
+
+#masters #masters-container #masters-slider .master .master-info .master-name {
+    font-size: 18px;
+    font-family: NunitoBold, sans-serif;
+    color: #2c0526;
+    margin-bottom: 15px;
+    line-height: 13px
+}
+
+#masters #masters-container #masters-slider .master .master-info .master-experience {
+    font-size: 14px;
+    font-family: NunitoRegular, sans-serif;
+    color: #2c0526
+}
+
+.slick-prev:before {
+    content: url(../images/prev.png)
+}
+
+.slick-next:before {
+    content: url(../images/next.png)
+}
+
+#gallery {
+    overflow: hidden;
+    position: relative;
+    background: url(../images/decor-rose-gallery.png) bottom no-repeat
+}
+
+#gallery #gallery-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-bottom: 60px
+}
+
+#gallery #gallery-container h2.block-title {
+    margin-bottom: 30px
+}
+
+#gallery #gallery-container #gallery-text {
+    font-size: 16px;
+    font-family: NunitoRegular, sans-serif;
+    color: #2c0526;
+    width: 684px
+}
+
+#gallery #gallery-container #gallery-slider {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 45px
+}
+
+#gallery #gallery-container #gallery-slider .gallery-image {
+    outline: 0;
+    width: 400px;
+    height: 295px
+}
+
+#gallery #gallery-container #gallery-slider .gallery-image img {
+    max-height: 100%;
+    max-width: 100%;
+    transition: all .5s ease
+}
+
+#gallery #gallery-container #gallery-slider .gallery-image img:hover {
+    transform: scale(1.1)
+}
+
+#gallery #gallery-container #gallery-slider .slick-dots li.slick-active button:before {
+    border-radius: 50%;
+    background-color: #721163;
+    width: 17px;
+    height: 17px;
+    content: ''
+}
+
+#gallery #gallery-container #gallery-slider .slick-dots li button:before {
+    border-width: 1px;
+    border-color: #721163;
+    border-style: solid;
+    border-radius: 50%;
+    background-color: transparent;
+    width: 15px;
+    height: 15px;
+    content: ''
+}
+
+#gallery #gallery-container #gallery-slider .slick-list {
+    margin-bottom: 50px;
+    overflow: visible
+}
+
+#gallery #gallery-container #gallery-slider .slick-prev {
+    left: calc(50% - 203px);
+    top: 360px;
+    z-index: 2
+}
+
+#gallery #gallery-container #gallery-slider .slick-next {
+    right: calc(50% - 203px);
+    top: 360px;
+    z-index: 2
+}
+
+#gallery #gallery-container #gallery-slider .slick-slider {
+    height: 345px
+}
+
+#gallery #gallery-container #gallery-slider .slick-slide {
+    opacity: .6
+}
+
+#gallery #gallery-container #gallery-slider .slick-active {
+    opacity: 1
+}
+
+img.mfp-img {
+    width: 840px;
+    max-height: 540px
+}
+
+.mfp-iframe-holder .mfp-close, .mfp-image-holder .mfp-close {
+    background: url(../images/close.png) center no-repeat, rgba(250, 247, 250, .3);
+    font-size: 0;
+    font-family: NullFont;
+    border-radius: 50%;
+    position: absolute;
+    width: 51px;
+    height: 51px;
+    right: -35px;
+    top: 8px
+}
+
+.mfp-title, .ui-state-default, .ui-widget {
+    font-family: NunitoSemiBold, sans-serif
+}
+
+.mfp-title {
+    background-color: #721163;
+    opacity: .8;
+    width: 760px;
+    padding: 17px 40px 13px;
+    border-radius: 0 0 8px 8px;
+    font-size: 18px;
+    color: #faf7fa;
+    position: absolute;
+    bottom: 4px
+}
+
+.mfp-bg {
+    background: #25181f;
+    opacity: .7
+}
+
+#questions {
+    background: url(../images/questions-bg.png);
+    margin-top: 130px
+}
+
+#questions #questions-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-bottom: 50px
+}
+
+#questions #questions-container .block-title {
+    padding-top: 45px;
+    margin-bottom: 30px
+}
+
+#questions #questions-container #accordion-form {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start
+}
+
+#questions #questions-container #accordion-form #call-form {
+    border-radius: 8px;
+    background-color: #faf7fa;
+    box-shadow: 0 2px 9.2px .8px rgba(67, 6, 57, .12);
+    width: 465px;
+    padding: 30px 37px;
+    box-sizing: border-box;
+    margin-top: 20px
+}
+
+#questions #questions-container #accordion-form #call-form #call-form-text {
+    font-size: 18px;
+    font-family: NunitoRegular, sans-serif;
+    color: #2c0526;
+    text-align: center;
+    width: 393px;
+    margin: 0 auto;
+    line-height: 21px
+}
+
+#questions #questions-container #accordion-form #call-form #call-form-text span {
+    font-family: NunitoBold, sans-serif;
+    color: #721163
+}
+
+#questions #questions-container #accordion-form #call-form form {
+    margin-top: 30px;
+    text-align: center
+}
+
+#questions #questions-container #accordion-form #call-form form label input#input-phone {
+    border-width: 1px;
+    border-color: #721163;
+    border-style: solid;
+    background-color: #f5eff3;
+    width: 280px;
+    border-radius: 25px;
+    padding: 16px 20px;
+    box-sizing: border-box;
+    outline: 0;
+    height: 44px;
+    display: block;
+    margin: 0 auto
+}
+
+#questions #questions-container #accordion-form #call-form form label input::placeholder {
+    font-size: 14px;
+    font-family: NunitoRegular, sans-serif;
+    color: #721163
+}
+
+#questions #questions-container #accordion-form #call-form form #call-form-btn button {
+    width: 282px;
+    height: 44px;
+    margin-top: 15px
+}
+
+#questions #questions-container #accordion-form #call-form form #call-form-btn {
+    position: relative
+}
+
+#questions #questions-container #accordion-form #call-form form #call-form-btn #decor-rose {
+    position: absolute;
+    top: -5px;
+    right: 25px
+}
+
+.error, .error-text {
+    font-family: NunitoRegular, sans-serif;
+    font-size: 12px;
+    color: red;
+    display: none;
+    text-align: center
+}
+
+.ui-state-default, .ui-widget {
+    font-size: 18px;
+    color: #2c0526;
+    border: transparent
+}
+
+.ui-widget p {
+    font-family: NunitoRegular, sans-serif;
+    color: #2c0526;
+    font-size: 14px;
+    width: 564px;
+    margin: 0;
+    line-height: 16px
+}
+
+.ui-accordion .ui-accordion-header, .ui-widget-content {
+    width: 715px;
+    background-color: #faf7fa;
+    box-sizing: border-box
+}
+
+.ui-helper-reset {
+    line-height: 13px
+}
+
+.ui-widget p span {
+    font-family: NunitoBold, sans-serif;
+    color: #721163
+}
+
+.ui-accordion .ui-accordion-header {
+    outline: 0;
+    padding: 30px;
+    margin: 20px 0 0;
+    box-shadow: 0 2px 9.2px .8px rgba(67, 6, 57, .12)
+}
+
+.ui-widget-content {
+    box-shadow: 0 8px 9.2px .8px rgba(67, 6, 57, .12);
+    border-bottom: 0;
+    border-left: 0;
+    border-right: 0;
+    z-index: 2;
+    position: relative
+}
+
+.border {
+    border-top: 1px solid #721163;
+    padding-top: 30px
+}
+
+.ui-accordion .ui-accordion-content {
+    padding: 0 30px 30px;
+    overflow: hidden
+}
+
+.ui-corner-all, .ui-corner-bottom {
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px
+}
+
+.ui-corner-all, .ui-corner-top {
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px
+}
+
+.ui-icon {
+    content: url(../images/down.png);
+    width: 22px;
+    height: 12px;
+    right: 30px;
+    position: absolute;
+    top: 38px
+}
+
+.ui-state-active .ui-icon {
+    content: url(../images/up.png)
+}
+
+#contacts {
+    background: url(../images/decor-rose-contacts.png) top no-repeat;
+    background-position-x: 88%;
+    background-position-y: -15%
+}
+
+#contacts #contacts-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 110px 0 200px;
+    position: relative
+}
+
+#contacts #contacts-container iframe {
+    position: absolute;
+    right: 0;
+    top: 110px;
+    border-radius: 15px
+}
+
+#contacts #contacts-container #address-map #address-contacts {
+    position: relative;
+    margin-top: 60px
+}
+
+#contacts #contacts-container #address-map #address-contacts #lavender-image-contacts {
+    position: absolute;
+    bottom: -170px;
+    left: -180px
+}
+
+#contacts #contacts-container #address-map #address-contacts .contacts-title {
+    font-size: 20px;
+    font-family: NunitoSemiBold, sans-serif;
+    color: #2c0526;
+    margin-bottom: 15px
+}
+
+#contacts #contacts-container #address-map #address-contacts .contacts-text {
+    margin-bottom: 5px
+}
+
+#contacts #contacts-container #address-map #address-contacts #time-phone {
+    margin-top: 65px;
+    margin-left: 100px
+}
+
+#contacts #contacts-container #address-map #address-contacts #time-phone #contact-phone {
+    margin-top: 35px
+}
+
+.contacts-text {
+    font-size: 16px;
+    font-family: NunitoRegular, sans-serif;
+    color: #2c0526
+}
+
+#footer {
+    background: #faf7fa
+}
+
+#footer #footer-container {
+    padding: 27px 0;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+}
+
+#footer #footer-container .logo {
+    margin-left: 250px
+}
+
+#footer #footer-container #social-media {
+    display: flex;
+    align-items: center
+}
+
+#footer #footer-container #social-media a svg {
+    width: 42px;
+    height: 24px;
+    fill: #2c0526
+}
+
+#footer #footer-container #social-media a .vk, #footer #footer-container #social-media a .youtube {
+    height: 32px
+}
+
+#footer #footer-container #social-media a svg.shadow:hover {
+    fill: #721163;
+    cursor: pointer;
+    filter: drop-shadow(3px 3px 2px #e6d5e3)
+}
+
+#reservation-container {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: 0 0;
+    z-index: 999;
+    display: none;
+    justify-content: center;
+    align-items: center
+}
+
+#reservation-container #reservation-content-block {
+    border-radius: 15px;
+    background-color: #faf7fa;
+    width: 428px;
+    padding: 36px 60px 60px;
+    box-sizing: border-box;
+    position: relative
+}
+
+#reservation-container #reservation-content-block #reservation-content form .input {
+    text-align: center;
+    margin-top: 24px
+}
+
+#reservation-container #reservation-content-block #reservation-content form input {
+    border-width: 1px;
+    border-color: #721163;
+    border-style: solid;
+    background-color: #faf7fa;
+    width: 303px;
+    border-radius: 25px;
+    padding: 0 20px;
+    box-sizing: border-box;
+    height: 42px;
+    outline: 0
+}
+
+#reservation-container #reservation-content-block #reservation-content form input::placeholder {
+    font-size: 14px;
+    font-family: NunitoRegular, sans-serif;
+    color: #2c0526
+}
+
+#reservation-container #reservation-content-block #reservation-content form #form-button {
+    text-align: center
+}
+
+#reservation-container #reservation-content-block #reservation-content form #form-button .btn {
+    width: 196px;
+    margin-top: 60px
+}
+
+#reservation-container #reservation-sent-block {
+    position: relative;
+    border-radius: 15px;
+    background-color: #faf7fa;
+    width: 532px;
+    height: 472px;
+    padding: 195px 124px;
+    box-sizing: border-box;
+    display: none
+}
+
+#reservation-container #reservation-sent-block #reservation-title {
+    font-size: 20px;
+    font-family: NunitoBold, sans-serif;
+    color: #721163;
+    text-align: center;
+    margin-bottom: 30px
+}
+
+#reservation-container #reservation-sent-block #reservation-text {
+    font-size: 18px;
+    font-family: NunitoRegular, sans-serif;
+    color: #2c0526;
+    text-align: center
+}
+
+.custom-option, .custom-select-trigger {
+    font-size: 14px;
+    font-family: NunitoRegular, sans-serif;
+    color: #2c0526
+}
+
+.reservation-cancel {
+    position: absolute;
+    border-radius: 50%;
+    opacity: .702;
+    width: 51px;
+    height: 51px;
+    background: url(../images/cancel.png) center no-repeat #faf7fa;
+    top: 0;
+    right: -66px
+}
+
+.custom-select-wrapper {
+    position: relative;
+    display: inline-block;
+    user-select: none
+}
+
+.custom-select-wrapper select {
+    display: none
+}
+
+.custom-select {
+    position: relative;
+    display: inline-block
+}
+
+.custom-select-trigger {
+    display: block;
+    border-radius: 25px;
+    padding: 9px 20px;
+    cursor: pointer;
+    border-width: 1px;
+    border-color: #721163;
+    border-style: solid;
+    width: 303px;
+    height: 42px;
+    box-sizing: border-box;
+    text-align: left
+}
+
+.custom-option, .custom-select-trigger:after {
+    display: block;
+    border-bottom: 1px solid #721163;
+    transition: all .4s ease-in-out
+}
+
+.custom-select-trigger:after {
+    position: absolute;
+    content: '';
+    width: 10px;
+    height: 10px;
+    top: 50%;
+    right: 25px;
+    margin-top: -3px;
+    border-right: 1px solid #721163;
+    transform: rotate(45deg) translateY(-50%);
+    transform-origin: 50% 0
+}
+
+.custom-select.opened .custom-select-trigger:after {
+    margin-top: 3px;
+    transform: rotate(-135deg) translateY(-50%)
+}
+
+.custom-options {
+    position: absolute;
+    display: block;
+    top: 100%;
+    left: 0;
+    right: 0;
+    min-width: 100%;
+    margin: 15px 0;
+    border: 1px solid #721163;
+    border-radius: 10px;
+    box-sizing: border-box;
+    box-shadow: 0 2px 1px rgba(0, 0, 0, .07);
+    background: #fff;
+    transition: all .4s ease-in-out;
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+    transform: translateY(-15px)
+}
+
+.custom-select.opened .custom-options {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: all;
+    transform: translateY(0)
+}
+
+.custom-options:before {
+    position: absolute;
+    display: block;
+    content: '';
+    bottom: 100%;
+    right: 25px;
+    width: 7px;
+    height: 7px;
+    margin-bottom: -4px;
+    border-top: 1px solid #b5b5b5;
+    border-left: 1px solid #b5b5b5;
+    background: #fff;
+    transform: rotate(45deg);
+    transition: all .4s ease-in-out
+}
+
+.option-hover:before {
+    background: #f9f9f9
+}
+
+.custom-option {
+    position: relative;
+    padding: 0 22px;
+    font-weight: 600;
+    line-height: 47px;
+    cursor: pointer
+}
+
+.custom-option:first-of-type {
+    border-radius: 4px 4px 0 0
+}
+
+.custom-option:last-of-type {
+    border-bottom: 0;
+    border-radius: 0 0 4px 4px
+}
+
+.custom-option.selection, .custom-option:hover {
+    background: #fff7ff
+}
+
+@media screen and (min-width: 1920px) {
+    #main, #questions {
+        background-size: 100%;
+        background-position-y: center
+    }
+
+    #offer {
+        background-position-x: center;
+        background-repeat-x: no-repeat
+    }
+}
+
+@media screen and (max-width: 1440px) {
+    #offer {
+        background-position: center
+    }
+
+    #offer #circle1 {
+        left: -150px
+    }
+}
+
+@media screen and (max-width: 1240px) {
+    #advantages #advantages-container, #contacts #contacts-container, #footer #footer-container, #gallery #gallery-container, #header #header-container, #main #main-container, #masters #masters-container, #offer #offer-container, #questions #questions-container, #services #services-container {
+        max-width: 100%;
+        padding-left: 20px;
+        padding-right: 20px
+    }
+
+    #gallery #gallery-container #gallery-slider .slick-list {
+        overflow: hidden
+    }
+
+    #gallery #gallery-container #gallery-slider .slick-list .slick-track {
+        left: 0
+    }
+
+    #contacts #contacts-container iframe {
+        right: 20px
+    }
+
+    .ui-accordion .ui-accordion-header, .ui-widget-content {
+        width: 670px
+    }
+
+    .ui-accordion .ui-accordion-content {
+        height: 100%
+    }
+}
+
+@media screen and (max-width: 1199px) {
+    #masters #masters-container #masters-slider .master .master-image {
+        width: 310px;
+        height: 250px
+    }
+
+    #masters #masters-container #masters-slider .slick-dots li button::before {
+        top: 25px
+    }
+
+    #masters #masters-container #masters-slider .slick-track {
+        left: calc(50% - 150px)
+    }
+
+    #gallery #gallery-container #gallery-slider .gallery-image {
+        width: 350px;
+        margin: 0 10px
+    }
+
+    #gallery #gallery-container #gallery-slider .slick-track {
+        left: 1px
+    }
+
+    #gallery #gallery-container #gallery-slider .slick-next, #gallery #gallery-container #gallery-slider .slick-prev {
+        top: 315px
+    }
+
+    #gallery #gallery-container #gallery-slider .slick-dots {
+        bottom: 19px
+    }
+
+    .ui-accordion .ui-accordion-header, .ui-widget-content {
+        width: 620px
+    }
+
+    #services #services-container #services-cards {
+        max-width: 584px;
+        flex-wrap: wrap;
+        margin: 0 auto
+    }
+
+    #services #services-container #services-cards .service {
+        margin-bottom: 20px
+    }
+
+    #advantages #advantages-container .advantages .advantage:nth-child(2) {
+        margin-left: 50px
+    }
+
+    #questions #questions-container #accordion-form {
+        flex-wrap: wrap
+    }
+
+    #contacts #contacts-container #address-map iframe {
+        width: 600px
+    }
+
+    #offer #circle1 {
+        left: -240px
+    }
+}
+
+@media screen and (max-width: 1137px) {
+    #questions #questions-container #accordion-form {
+        justify-content: center;
+        flex-wrap: wrap;
+        max-width: 1000px
+    }
+
+    #questions #questions-container #accordion-form #call-form {
+        width: 620px
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    #header #header-container .logo {
+        margin-left: 0
+    }
+
+    #advantages #advantages-container {
+        padding-top: 100px;
+        padding-bottom: 0
+    }
+
+    #advantages #advantages-container .block-title {
+        text-align: center
+    }
+
+    #advantages #advantages-container .advantages {
+        flex-wrap: wrap;
+        justify-content: center
+    }
+
+    #advantages #advantages-container .advantages .advantage:nth-child(2) {
+        margin-left: 100px
+    }
+
+    #advantages #advantages-container .advantages:nth-child(2) .advantage:first-child, #footer #footer-container .logo {
+        margin-left: 0
+    }
+
+    #advantages #advantages-container .advantages:first-child .advantage:first-child {
+        margin-right: 100px
+    }
+
+    #questions {
+        margin-top: 100px
+    }
+
+    #gallery #gallery-container {
+        padding-bottom: 0
+    }
+
+    #contacts #contacts-container {
+        padding-bottom: 558px
+    }
+
+    #contacts #contacts-container #address-map iframe {
+        right: calc(50% - 300px);
+        top: 416px
+    }
+
+    #contacts #contacts-container #address-map #address-contacts {
+        position: relative;
+        margin-top: 60px;
+        display: flex;
+        justify-content: space-evenly
+    }
+
+    #contacts #contacts-container #address-map #address-contacts #time-phone {
+        margin: 0
+    }
+
+    #contacts #contacts-container #address-map #address-contacts #lavender-image-contacts {
+        bottom: -584px
+    }
+
+    #masters #masters-container #masters-slider .master .master-image {
+        width: 300px
+    }
+
+    #masters #masters-container #masters-slider .slick-dots li #slick-slide-control02::before {
+        content: '3'
+    }
+
+    #masters #masters-container #masters-slider .slick-prev {
+        left: calc(50% - 63px)
+    }
+
+    #masters #masters-container #masters-slider .slick-next {
+        right: calc(50% - 63px)
+    }
+
+    #gallery #gallery-container #gallery-slider .slick-track {
+        left: 0
+    }
+
+    #gallery #gallery-container #gallery-slider .slick-dots {
+        bottom: 19px
+    }
+
+    img.mfp-img {
+        width: 724px
+    }
+
+    .mfp-title {
+        width: 644px
+    }
+
+    .mfp-image-holder .mfp-close {
+        right: -27px
+    }
+}
+
+@media screen and (max-width: 998px) {
+    #masters #masters-container #masters-slider .slick-track {
+        left: calc(25% - 150px)
+    }
+}
+
+@media screen and (max-width: 620px) {
+    #services #services-container #services-cards {
+        max-width: 400px;
+        justify-content: center
+    }
+}
+
+@media screen and (max-width: 666px) {
+    #masters #masters-container #masters-slider .slick-track {
+        left: calc(50% - 150px)
+    }
+
+    #masters #masters-container #masters-slider .slick-dots li #slick-slide-control03::before {
+        content: '4'
+    }
+
+    #masters #masters-container #masters-slider .slick-dots li #slick-slide-control04::before {
+        content: '5'
+    }
+
+    #masters #masters-container #masters-slider .slick-dots li #slick-slide-control05::before {
+        content: '6'
+    }
+
+    #masters #masters-container #masters-slider .slick-prev {
+        left: calc(50% - 108px)
+    }
+
+    #masters #masters-container #masters-slider .slick-next {
+        right: calc(50% - 108px)
+    }
+
+    #gallery #gallery-container #gallery-slider .gallery-image {
+        width: 300px;
+        height: 260px
+    }
+
+    #gallery #gallery-container #gallery-slider .slick-next, #gallery #gallery-container #gallery-slider .slick-prev {
+        top: 281px
+    }
+
+    #questions {
+        margin-top: 70px
+    }
+
+    #contacts #contacts-container #address-map iframe {
+        width: 450px;
+        right: calc(50% - 225px)
+    }
+}
+
+@media screen and (max-width: 767px) {
+    #header #header-container #burger {
+        display: block
+    }
+
+    #header #header-container #menu {
+        top: 0;
+        position: fixed;
+        z-index: 100;
+        width: 100%;
+        height: 100%;
+        align-items: center;
+        display: none;
+        left: 0;
+        justify-content: center;
+        padding: 25px 0;
+        background: 0 0;
+        flex-direction: column
+    }
+
+    #header #header-container #menu .menu-item {
+        color: #2c0526;
+        padding: 10px 0;
+        margin-right: 0
+    }
+
+    #header #header-container #menu img {
+        display: block;
+        width: 20px;
+        height: 20px;
+        position: absolute;
+        top: 34px;
+        left: 22px
+    }
+
+    #main {
+        padding-top: 100px
+    }
+
+    #main #main-container {
+        padding-bottom: 150px
+    }
+
+    #main #main-container #main-title {
+        font-size: 30px;
+        margin-bottom: 30px;
+        line-height: 42px
+    }
+
+    #main #main-container #main-title span {
+        font-size: 60px
+    }
+
+    #main #main-container #main-text {
+        font-size: 18px;
+        margin-bottom: 30px
+    }
+
+    #services #lavender {
+        right: 0
+    }
+
+    #services #services-container #services-text {
+        width: 475px
+    }
+
+    #questions #questions-container #accordion-form #call-form, .ui-accordion .ui-accordion-header, .ui-widget-content {
+        width: 540px
+    }
+
+    .ui-accordion .ui-accordion-header {
+        line-height: 20px
+    }
+
+    .ui-widget-content p {
+        width: 480px
+    }
+
+    h2.block-title {
+        font-size: 28px
+    }
+
+    #footer #footer-container {
+        max-width: 488px;
+        flex-wrap: wrap
+    }
+
+    #footer #footer-container .contacts-text, #footer #footer-container .phone {
+        padding-top: 20px
+    }
+
+    img.mfp-img {
+        width: 540px
+    }
+
+    .mfp-title {
+        width: 461px
+    }
+
+    .mfp-image-holder .mfp-close {
+        right: -18px
+    }
+}
+
+@media screen and (max-width: 579px) {
+    #main #main-container #main-title {
+        width: 436px;
+        text-align: center;
+        margin: 0 auto 30px
+    }
+
+    #main #main-container #main-text {
+        width: 416px;
+        text-align: center;
+        margin: 0 auto 30px
+    }
+
+    #main #main-container #main-action {
+        display: block;
+        text-align: center
+    }
+
+    h2.block-title {
+        text-align: center
+    }
+
+    #advantages #advantages-container #advantages-points {
+        max-width: 300px;
+        margin: 0 auto
+    }
+
+    #advantages #advantages-container #advantages-points .advantages:first-child .advantage:first-child, #advantages #advantages-container #advantages-points .advantages:nth-child(2) .advantage:first-child {
+        margin-right: 0
+    }
+
+    #advantages #advantages-container #advantages-points .advantages .advantage:nth-child(2) {
+        margin-left: 0
+    }
+
+    #advantages #advantages-container #advantages-points .advantages .advantage {
+        flex-wrap: wrap;
+        justify-content: center
+    }
+
+    #advantages #advantages-container #advantages-points .advantages .advantage .ellipse {
+        margin-bottom: 15px
+    }
+
+    #advantages #advantages-container #advantages-points .advantages .advantage .advantage-text {
+        text-align: center;
+        width: 260px;
+        margin-left: 0
+    }
+
+    #services #services-container #services-text {
+        text-align: center;
+        margin: 0 auto 60px;
+        width: 420px
+    }
+
+    #offer #offer-container #offer-text {
+        margin: 0 auto
+    }
+
+    #offer #offer-container #offer-text #offer-description {
+        text-align: center;
+        margin: 0 auto 30px
+    }
+
+    #offer #offer-container #offer-text #offer-btn {
+        text-align: center
+    }
+
+    #masters #masters-container #masters-text {
+        width: 420px;
+        text-align: center;
+        margin: 0 auto 30px
+    }
+
+    #gallery #gallery-container #gallery-text {
+        width: 420px;
+        text-align: center;
+        margin: 0 auto
+    }
+
+    #questions #questions-container #accordion-form #call-form, .ui-accordion .ui-accordion-header, .ui-widget-content {
+        width: 382px
+    }
+
+    #questions #questions-container #accordion-form #call-form #call-form-text {
+        font-size: 18px;
+        width: 300px
+    }
+
+    #questions #questions-container #accordion-form #call-form #call-btn #decor-rose {
+        top: 2px;
+        right: 10px
+    }
+
+    .ui-widget-content p {
+        width: 327px
+    }
+
+    .ui-accordion .ui-accordion-content {
+        height: 127px
+    }
+
+    .ui-icon {
+        right: 20px
+    }
+
+    #contacts #contacts-container #address-map iframe {
+        top: 600px
+    }
+
+    #contacts #contacts-container #address-map #address-contacts {
+        max-width: 498px;
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+        margin: 60px auto 0
+    }
+
+    #contacts #contacts-container #address-map #address-contacts #lavender-image-contacts {
+        left: -224px
+    }
+
+    #contacts #contacts-container #address-map #address-contacts #time-phone {
+        margin-top: 40px
+    }
+
+    #reservation-container #reservation-content-block {
+        width: 396px
+    }
+
+    #reservation-container #reservation-content-block #reservation-content form input {
+        width: 276px
+    }
+
+    #reservation-container #reservation-sent-block {
+        width: 410px;
+        padding: 150px 50px
+    }
+
+    #reservation-container .reservation-cancel {
+        top: -30px;
+        right: -25px
+    }
+
+    .custom-select-trigger {
+        width: 276px
+    }
+
+    .mfp-title {
+        width: 360px
+    }
+
+    img.mfp-img {
+        width: 440px
+    }
+
+    .mfp-image-holder .mfp-close {
+        right: -25px
+    }
+}
+
+@media screen and (max-width: 570px) {
+    #advantages #advantages-container .advantages:nth-child(2) .advantage:nth-child(2) {
+        width: 300px
+    }
+}
+
+@media screen and (max-width: 360px) {
+    #header #header-container .phone {
+        display: none
+    }
+}
+
+@media screen and (max-width: 390px) {
+    #footer #footer-container {
+        max-width: 293px;
+        justify-content: center;
+        padding-top: 50px;
+        padding-bottom: 50px
+    }
+}
+
+@media screen and (max-width: 479px) {
+    #contacts #contacts-container #address-map #address-contacts #lavender-image-contacts, #main #main-container #main-text br {
+        display: none
+    }
+
+    #main #main-container #main-title {
+        width: 280px;
+        font-size: 27px
+    }
+
+    #main #main-container #main-text {
+        width: 280px;
+        font-size: 17px
+    }
+
+    #masters #masters-container #masters-text, #services #services-container #services-text {
+        width: 280px
+    }
+
+    #masters #masters-container #masters-slider .master .master-info {
+        bottom: 30px
+    }
+
+    #masters #masters-container #masters-slider .master .master-image {
+        width: 280px
+    }
+
+    #masters #masters-container #masters-slider .slick-track {
+        left: calc(50% - 140px)
+    }
+
+    #offer #circle1 {
+        left: -327px
+    }
+
+    #offer #offer-container #offer-text .block-title {
+        line-height: 26px
+    }
+
+    #offer #offer-container #offer-text #offer-description, .ui-accordion .ui-accordion-header, .ui-widget-content {
+        width: 300px
+    }
+
+    .ui-icon {
+        top: calc(50% - 1px);
+        width: 18px;
+        height: 10px
+    }
+
+    .ui-accordion .ui-accordion-header {
+        padding: 20px 30px 20px 20px
+    }
+
+    .ui-state-default, .ui-widget {
+        font-size: 16px
+    }
+
+    .ui-widget-content p {
+        width: 258px
+    }
+
+    .ui-accordion .ui-accordion-content {
+        height: 150px
+    }
+
+    #questions #questions-container #accordion-form #call-form {
+        width: 300px
+    }
+
+    #questions #questions-container #accordion-form #call-form #call-form-text {
+        font-size: 15px;
+        width: 219px
+    }
+
+    #questions #questions-container #accordion-form #call-form form #call-form-btn button, #questions #questions-container #accordion-form #call-form form label input#input-phone {
+        width: 226px
+    }
+
+    #questions #questions-container #accordion-form #call-form form #call-form-btn #decor-rose {
+        top: 0;
+        right: -25px
+    }
+
+    #contacts #contacts-container #address-map iframe {
+        width: 300px;
+        right: calc(50% - 150px);
+        top: 660px
+    }
+
+    #reservation-container #reservation-content-block {
+        width: 300px;
+        padding: 36px 20px 20px
+    }
+
+    #reservation-container #reservation-content-block #reservation-content form input {
+        width: 260px
+    }
+
+    #reservation-container #reservation-sent-block {
+        width: 280px
+    }
+
+    #reservation-container .reservation-cancel {
+        top: -30px;
+        right: -25px
+    }
+
+    .custom-select-trigger {
+        width: 260px
+    }
+
+    #gallery #gallery-container #gallery-slider .gallery-image, #gallery #gallery-container #gallery-text {
+        width: 280px
+    }
+
+    #gallery #gallery-container #gallery-slider .slick-dots li {
+        width: 10px;
+        height: 10px;
+        margin: 0 6px
+    }
+
+    #gallery #gallery-container #gallery-slider .slick-next {
+        top: 285px;
+        right: calc(50% - 155px)
+    }
+
+    #gallery #gallery-container #gallery-slider .slick-prev {
+        top: 286px;
+        left: calc(50% - 149px)
+    }
+
+    img.mfp-img {
+        width: 280px
+    }
+
+    .mfp-title {
+        font-size: 14px;
+        padding: 17px 20px 13px;
+        width: 240px
+    }
+
+    .mfp-image-holder .mfp-close {
+        right: -25px
+    }
+}
